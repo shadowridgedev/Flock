@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Flock",
+			"Path": "..\\Source\\Flock.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FlockEditor",
+			"Path": "..\\Source\\FlockEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

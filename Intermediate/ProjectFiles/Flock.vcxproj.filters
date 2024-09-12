@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Flock.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Flock.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FlockEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Flock">
+      <UniqueIdentifier>{A8F2E23E-6EE5-3F79-B3E9-899E24776D2E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Flock\Flock.Build.cs">
+      <Filter>Source\Flock</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Flock\Flock.cpp">
+      <Filter>Source\Flock</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Flock\Flock.h">
+      <Filter>Source\Flock</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Flock\NavMeshSpawner.cpp">
+      <Filter>Source\Flock</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Flock\NavMeshSpawner.h">
+      <Filter>Source\Flock</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bird.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bird.cpp" />
+  </ItemGroup>
+</Project>

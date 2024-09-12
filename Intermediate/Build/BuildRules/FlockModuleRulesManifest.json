@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\Flock\\Source\\Flock\\Flock.Build.cs",
+		"E:\\Flock\\Source\\Flock.Target.cs",
+		"E:\\Flock\\Source\\FlockEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}
